@@ -4,14 +4,9 @@ Esta nota apresenta o processo de recuperação do boot do Linux quando o Window
 
 ## Tópicos abordados
 
-- Problema de sobrescrita do boot pelo Windows
-- Perda do GRUB após instalação do Windows
-- Uso de pendrive Linux em modo Live
-- Acesso à BIOS/UEFI para boot pelo pendrive
-- Identificação de partições com fdisk
-- Montagem da partição Linux
-- Reinstalação do GRUB
-- U
+- Passos
+- Comandos
+- Finalização 
 
 O Windows só entende a si mesmo, então quando é instalado depois de um Linux ele não vê o outro sistema operacional.
 
@@ -35,7 +30,7 @@ Procure o terminal
 
 ---
 
-## 💻 Comandos
+## Comandos
 
 bash
 sudo fdisk -l
